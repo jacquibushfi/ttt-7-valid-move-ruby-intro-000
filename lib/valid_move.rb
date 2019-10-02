@@ -1,7 +1,8 @@
 
-def valid_move?(move, board)
-  if position_taken?(board, move) == true && !move.between?(0,8)
-    return false
+def valid_move?(board, move)
+  if position_taken?(board, move) == false && move.between?(0,8)
+    return true
+  elsif 
   end
 end
     
